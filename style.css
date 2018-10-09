@@ -55,3 +55,12 @@ section.charlotte-4{
     background-image: url(charlotte-4.jpg);
 }
 
+@media (max-width: 600px) {
+    header{
+        top:10px;
+    }
+    footer{
+        bottom: 10px;
+        left: 10px;
+    }
+}
