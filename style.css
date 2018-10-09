@@ -7,7 +7,7 @@ body{
 }
 
 header{
-    position: relative;
+    position: fixed;
     top: 20px; 
     left: 20px; 
 }
@@ -18,7 +18,7 @@ h1{
 }
 
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 30px;
     right: 20px;
     
@@ -34,3 +34,24 @@ a{
 a:hover{
     color:hotpink
 }
+
+section{
+    height:100vh;
+    background-color: mediumpurple;
+    background-image: url(charlotte-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.charlotte-2{
+    background-image: url(charlotte-2.jpg);
+}
+
+section.charlotte-3{
+    background-image: url(charlotte-3.jpg);
+}
+
+section.charlotte-4{
+    background-image: url(charlotte-4.jpg);
+}
+
