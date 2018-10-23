@@ -1,30 +1,77 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
-body{
-    font-family: 'rubik';
-    font-size: 18px;
-    line-height: 1.5;
-    
-    width: 640px; 
-    margin: 40px auto;
+header nav{
+    width: 100%;
+    background-color: lightskyblue;
+    position: fixed;
+    text-align: right;
+    padding: 10px; 
+}
+
+header img{
+    width: 100%;
 }
 
 nav{
     background-color: #FD9EFF;
     padding: 20px 40px 20px 40px;
+    float:right;
 }
 
 nav a{
     color: #ffffff;
     text-decoration: none;
     margin: 0px 15px 0px 0px;
-    border-bottom: 2px solid #f05d5d;
 }
 
 nav a:hover{
-    color: #5000ff;
-    border-bottom: 2px solid #ffffff;
+    color: #FD9EFF;
 }
+
+body{
+    font-family: 'rubik';
+    font-size: 18px;
+    line-height: 1.5;
+    width: 100%; 
+}
+
+h1, h2{
+    font-size: 34px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+p{
+    margin: 0;
+}
+    
+section.intro{
+    
+}
+
+section.intro img{
+    width: 33.33%
+}
+
+section.artists {
+    overflow: hidden;
+}
+
+section.artists img{
+    float:left;
+    width: 33.33%; 
+    padding: 30px 10px 30px 10px; 
+}
+
+footer{
+    background-color: #FD9EFF; 
+    overflow: hidden;
+}
+
+footer img{
+    width:19%;
+}
+
 
 section{
     background-color: #5000ff;
@@ -38,16 +85,7 @@ section.fullbleed{
 
 section.fullbleed img{
     width: 100%;
-}
 
-h1, h2{
-    font-size: 36px;
-    line-height: 1.3;
-}
-
-h2{
-    font-style: italic;
-    margin: 20px 0px 20px 0px;
 }
 
 @media (max-width: 700px){
