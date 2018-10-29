@@ -41,6 +41,13 @@ h1, h2{
     text-align: center;
 }
 
+h1{
+    font-size: 34px;
+    line-height: 1.2;
+    text-align: center;
+    color: blue;
+}
+
 p{
     margin: 0;
 }
@@ -62,13 +69,22 @@ section.artists {
 }
 
 section.artists img{
-    float:left;
-    width: 33.33%; 
-    padding: 30px 10px 30px 10px; 
+    position: relative;
+    float: center;
+    width:  180px;
+    height: 180px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+p{
+    position: relative;
+    float: center;
 }
 
 section.features img{
-    
+    float: center;
 }
 
 footer{
@@ -80,20 +96,10 @@ footer img{
     width:19%;
 }
 
-
 section{
-    background-color: #5000ff;
+    background-color: #FD9EFF;
     padding: 40px;
     color:#ffffff;
-}
-
-section.fullbleed{
-        padding: 0;
-}
-
-section.fullbleed img{
-    width: 100%;
-
 }
 
 @media (max-width: 700px){
