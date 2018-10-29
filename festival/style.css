@@ -45,12 +45,16 @@ p{
     margin: 0;
 }
     
-section.intro{
-    
+section.intro h1{
+    padding: 0 0 10px 0;
+}
+
+section.intro p{
+    padding: 0 0 10px 0;
 }
 
 section.intro img{
-    width: 33.33%
+    width: 33.33%;
 }
 
 section.artists {
@@ -61,6 +65,10 @@ section.artists img{
     float:left;
     width: 33.33%; 
     padding: 30px 10px 30px 10px; 
+}
+
+section.features img{
+    
 }
 
 footer{
