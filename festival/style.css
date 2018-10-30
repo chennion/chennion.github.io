@@ -47,10 +47,6 @@ h1{
     text-align: center;
     color: blue;
 }
-
-p{
-    margin: 0;
-}
     
 section.intro h1{
     padding: 0 0 10px 0;
@@ -61,26 +57,29 @@ section.intro p{
 }
 
 section.intro img{
-    width: 33.33%;
+    width: 70%;
+    float: right;
+    padding: 0 10px 0 10px;
 }
 
-section.artists {
-    overflow: hidden;
+* {
+  box-sizing: border-box;
 }
 
-section.artists img{
-    position: relative;
-    float: center;
-    width:  180px;
-    height: 180px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
+.artists {
+  width: 900px;
+  margin: auto;
 }
 
-p{
-    position: relative;
-    float: center;
+.artists div {
+  padding: 10px;
+  width: 33.33%;
+  float: left;
+  overflow: auto;
+}
+
+.artists div img {
+  width: 100%;
 }
 
 section.features img{
@@ -93,11 +92,13 @@ footer{
 }
 
 footer img{
-    width:19%;
+    width:125px;
+    float: center;
 }
 
 section{
     background-color: #FD9EFF;
+    width: 100%;
     padding: 40px;
     color:#ffffff;
 }
