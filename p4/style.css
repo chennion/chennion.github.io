@@ -18,6 +18,7 @@ header {
     width: 100%;
     padding: 20px;
     overflow: hidden;
+    z-index: 1;
 }
 
 header h1{
@@ -47,6 +48,53 @@ header nav a.selected{
 section {
     text-align: center;
 }
+
+div{
+    width: 300px;
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+div h2{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 250px;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: left;
+    opacity: 0;
+    transition: all 1s;
+}
+
+div:hover h2{
+    color:red; 
+    opacity: 1;
+}
+
+div img{
+    max-width: 100%;
+    opacity: 1;
+    transform: opacity 1s;
+}
+
+div:hover img {
+    opacity: 0.5;
+}
+
+div.large{
+    width: 420px;
+}
+
+div.extralarge{
+    width: 600px;
+}
+
+div.small{
+    width:250px;
+}
+
 footer{
     position: fixed;
     bottom: 0;
