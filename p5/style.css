@@ -126,4 +126,11 @@ div.product:hover img{
     div.product{
         width: auto;
     }
+    section.hero h2{
+        font-size: 24px;
+    }
+    
+    section.hero h3{
+        font-size: 18px;
+    }
 }
