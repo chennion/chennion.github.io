@@ -2,19 +2,13 @@
     box-sizing: border-box;
 }
 
-body, html {
-    height: 100%;
-}
-
-.parallax { 
-    background-image: url("1870s-in-the-late-19th-century-being-overweight-was-a-sign-of-wealth-since-it-suggested-one-had-the-means-to-feast%20copy.png");
-
-    height: 100%; 
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body{
+    font-family: Cooper Black; 
+    font-size: 30px;
+    line-height: 2;
+    
+    background-image: url(FarawayHappyBee-size_restricted.gif);
+    color: #ffffff;
 }
 
 header {
