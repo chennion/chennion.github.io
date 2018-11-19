@@ -3,7 +3,7 @@
 }
 
 body{
-    font-family: Helvetica; 
+    font-family: Cooper Black; 
     font-size: 15px;
     line-height: 1.5;
     
@@ -33,13 +33,13 @@ header h3{
     padding: 0;
 }
 header nav{
-    float: right;
+    float: left;
 }
 
 header nav a{
     color: yellow;
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 0px;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.5s;
 }
