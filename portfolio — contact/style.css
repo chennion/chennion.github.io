@@ -3,7 +3,7 @@
 }
 
 body{
-    font-family: Helvetica; 
+    font-family: Cooper Black; 
     font-size: 15px;
     line-height: 1.5;
     
@@ -33,13 +33,13 @@ header h3{
     padding: 0;
 }
 header nav{
-    float: right;
+    float: left;
 }
 
 header nav a{
     color: yellow;
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 0px;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.5s;
 }
@@ -48,65 +48,8 @@ header nav a:hover{
     border-bottom: 5px solid blue;
 }
 
-header nav a.selected{
-    border-bottom: 2px solid #666666;
-}
-
-section {
-    text-align: center;
-}
-
-div{
-    width: 200px;
-    margin: 20px;
-    position: relative;
-    display: inline-block;
-}
-
-div h2{
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    width: 250px;
-    font-size: 25px;
-    line-height: 1.2;
-    text-align: left;
-    opacity: 0;
-    transition: all 1s;
-}
-
-div:hover h2{
-    color:yellow; 
-    opacity: 5;
-}
-
-div img{
-    max-width: 100%;
-    opacity: 1;
-    transform: opacity 1s;
-}
-
-div:hover img {
-    opacity: 2;
-}
-
-div.large{
-    width: 450px;
-}
-
-div.extralarge{
-    width: 700px;
-}
-
-div.small{
-    width:220px;
-}
-
-div.extrasmall{
-    width:150px;
-}
-
 footer{
+    color: blue;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -116,7 +59,7 @@ footer{
 }
 
 footer p {
-    float:left;
+    float:right;
 }
 
 footer nav {
