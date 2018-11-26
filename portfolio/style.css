@@ -107,6 +107,8 @@ div.extrasmall{
 }
 
 footer{
+    font-size: 12px;
+    color: blue;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -116,7 +118,7 @@ footer{
 }
 
 footer p {
-    float:left;
+    float:right;
 }
 
 footer nav {
