@@ -97,3 +97,48 @@ section:hover img{
     opacity: 0.75;
     transform: scale(0.95) rotate(-3deg);
 }
+
+section.onething:hover img{
+    transform: scale(.90) rotate (3deg);
+}
+
+div.hamburger{
+    background-image: url(menu-icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+}
+
+div.slideout{
+    position: fixed;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: pink;
+    left: -290px;
+    transition: left 1s;
+}
+
+div.hamburger:hover div.slideout{
+    left: 0;
+}
+
+nav{
+    position: absolute;
+    top: 50%;
+    left: 150px;
+    width: 200px;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+nav a{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    margin: 10px 0;
+}

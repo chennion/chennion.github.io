@@ -62,15 +62,15 @@ header nav a:hover{
 }
 
 .hellvetica {
-  width: 800px;
+  max-width: 800px;
   margin: auto;
 }
 
 .hellvetica div {
   padding: 9px;
-  width: 33.33%;
-  float: left;
+  width: 32%;
   overflow: auto;
+  display: inline-block;
 }
 
 .hellvetica div img {
