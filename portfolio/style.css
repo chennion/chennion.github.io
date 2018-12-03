@@ -90,6 +90,17 @@ div:hover img {
     opacity: 2;
 }
 
+section img{
+    position: relative;
+    z-index: -1;
+    transition: all 3s;
+}
+
+section:hover img{
+    opacity: 0.90;
+    transform: scale(2.00) rotate(360deg);
+}
+
 div.large{
     width: 450px;
 }

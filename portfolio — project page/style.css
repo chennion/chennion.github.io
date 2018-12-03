@@ -77,6 +77,17 @@ header nav a:hover{
   width: 100%;
 }
 
+section img{
+    position: relative;
+    z-index: -1;
+    transition: all 1s;
+}
+
+section:hover img{
+    opacity: 0.90;
+    transform: scale(0.7) rotate(360deg);
+}
+
 footer{
     font-size: 12px;
     color: blue;
