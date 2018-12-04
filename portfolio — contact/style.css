@@ -48,6 +48,13 @@ header nav a:hover{
     border-bottom: 5px solid blue;
 }
 
+.contact img{
+    padding: 9px;
+    width: 45%;
+    margin: 400;
+    
+}
+
 footer{
     font-size: 12px;
     color: blue;
