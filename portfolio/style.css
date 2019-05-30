@@ -7,8 +7,8 @@ body{
     font-size: 12px;
     line-height: 1.5;
     
-    background-color: #000000;
-    color: #ffffff;
+    background-color: hotpink;
+    color: blue;
 }
 
 header {
@@ -45,7 +45,7 @@ header nav a{
 }
 
 header nav a:hover{
-    border-bottom: 5px solid blue;
+    border-bottom: 5px solid white;
 }
 
 header nav a.selected{
